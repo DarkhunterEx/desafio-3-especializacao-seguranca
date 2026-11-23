@@ -273,3 +273,45 @@ No fim de cada rodada, compare as duas respostas (celular do agente vs genérico
 ---
 
 ## 8. O que isso mostra sobre a especialização
+
+## 8. Conclusão — especialização ativa
+
+A partir das 5 perguntas do desafio, observa-se um padrão claro:
+
+| Pergunta | Tipo | Agente | ChatGPT | Diferença |
+|---|---|---|---|---|
+| Q1 | Conceitual | 12 | 8 | +4 |
+| Q2 | Código | 16 | 12 | +4 |
+| Q3 | Infraestrutura | 12 | 13 | −1 |
+| Q4 | Correção/V. | 15 | 9 | +6 |
+| Q5 | Aprendizado | 16 | 7 | +9 |
+| **Média** | | **14,2** | **9,8** | **+4,4** |
+
+### O que o gráfico mostra
+
+1. **O agente vence em 4 perguntas** (Q1, Q2, Q4, Q5). No Q3, o ChatGPT ganh**a** apenas por ter exposto mais detalhes do firewall/SSH — mas perde nos critérios estruturais (C4, C6).
+2. **Diferencial não é quantidade, é processo**: o agente não entrega resposta pronta. Pergunta, orienta, verifica aprendizado e usa o formato defensivo sempre.
+3. **No Q3 o ChatGPT quase empatou** — aqui o modelo genérico entregou uma matriz de proteção mais completa, mas o agente teve mais "guardas" (pergunta de contexto, verificação de segurança, estrutura).
+4. **No Q5 a vantagem é extrema**: o agente não entrega um resumo, ele conduz uma reflexão com verificação de aprendizado.
+
+### O que isso mostra sobre a especialização
+
+A especialização transforma o agente de um **resposta-mestra** em um **mentor de segurança**:
+
+| Aspecto | Chat GPT (genérico) | DIO Agent (especializado) |
+|---|---|---|
+| Início | Explica conceito ou dá solução imediata | Pergunta o cenário, contexto, ambiente |
+| Formato | Texto corrido, bullets | 5 seções obrigatórias (resumo, conceito, exemplo, controle, próximo passo) |
+| Classificação de risco | Imissível ou separada na resposta | Probabilidade × severidade, explícita |
+| Verificação de segurança | Opcional, quase sempre omitida | Pede confirmação se a falha é de fato de segurança |
+| Correção | Código ou comando pronto | Conduz com dicas, explica o "porquê" |
+| Aprendizado | Diz "reparei que...", "acontece que..." | Pergunta se entendeu, reforça conceito, vai para próximo passo |
+| Referências | Opcional, se mencionada | Sempre contextualiza com OWASP/MITRE |
+
+### Resultado final
+
+A especialização **não trocou o modelo de linguagem** — trocou o **processo de raciocínio**. O agente continua o mesmo modelo, mas com uma rede de hábitos que o tornam confiável para análises de segurança. E isso vale a pena mais caro do que "saber mais".
+
+---
+
+*Arquivo gerado para o Desafio 3 — Especialização do DIO Agent em Análise de Vulnerabilidades.*
