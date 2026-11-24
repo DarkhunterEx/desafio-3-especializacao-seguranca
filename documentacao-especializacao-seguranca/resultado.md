@@ -401,7 +401,23 @@
 4. **O agente cita referências?** ✅ (C7)
 
 ### Conclusão
-> [Sua conclusão aqui]
 
----
+O resultado é claro: o DIO Agent especializado **acaba vitando o ChatGPT em 4 das 5 perguntas**, com uma média de **14,8/16** contra **9,8/16** (diferença de **+5,0 pontos**).
+
+O que explica a diferença é o **processo**, não o conteúdo:
+
+| Aspecto | ChatGPT | DIO Agent |
+|---|---|---|
+| Início da resposta | Explica conceito ou dá solução imediata | Pergunta o cenário, contexto, ambiente |
+| Classificação de risco | Imissível ou separada | Probabilidade × Severidade, explícita |
+| Verificação de segurança | Opcional, quase sempre omitida | Pede confirmação se a falha é de fato de segurança |
+| Correção | Código ou comando pronto | Conduz com dicas, explica o "porquê" |
+| Aprendizado | Diz "reparei que...", "acontece que..." | Pergunta se entendeu, reforça conceito, vai para próximo passo |
+| Referências | Opcional, se mencionada | Sempre contextualiza com OWASP/MITRE |
+
+**Lição principal:** o especialista não sabe mais "respostas" — ele sabe **conduzir o raciocínio**. Não entrega o resultado, ele ensina o processo para chegar nele. Isso é o que o DIO propõe: formar profissionais autônomos, não fornecer respostas prontas.
+
+> 💡 **O que o estudante deve levar para o portfólio:** não a resposta certa, mas a **qualidade do processo** — perguntar antes de agir, classificar risco, verificar aprendizado e orientar correções.
+
+*Arquivo gerado para o Desafio 3 — Especialização do DIO Agent em Análise de Vulnerabilidades.*
 *Arquivo gerado para o Desafio 3 — Especialização do DIO Agent em Análise de Vulnerabilidades.*
