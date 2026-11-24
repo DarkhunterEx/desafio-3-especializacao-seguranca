@@ -37,7 +37,7 @@ Skills são guias passo a passo para tarefas específicas. Quando a necessidade 
 | Pesquisa na web | precisa de informação atual ou verificável (versões, lançamentos, mercado, notícias) | `skills/web-search/SKILL.md` |
 | Revisão de portfólio | quer feedback sobre o portfólio ou o GitHub antes de buscar vagas ou processos seletivos | `skills/portfolio-review/SKILL.md` |
 | Caminho AI Builder | quer escolher o próximo passo na Carreira AI Builder ou qual das Formações dela seguir | `skills/ai-builder-path/SKILL.md` |
-| Análise de vulnerabilidades | quiser analisar uma falha de segurança, entender o risco e aprender correção defensiva | `skills/vulnerability-analysis/SKILL.MD` |
+| Análise de vulnerabilidades | quiser analisar uma falha de segurança, entender o risco e aprender correção defensiva | `skills/vulnerability-analysis/SKILL.md` |
 | Trilha de cibersegurança | quiser montar ou avançar em uma jornada de estudos em cibersegurança | `skills/cyber-study-path/SKILL.MD` |
 
 # Especialização em Segurança
