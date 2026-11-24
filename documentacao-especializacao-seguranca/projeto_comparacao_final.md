@@ -442,16 +442,5 @@ Valor total **por pergunta = 16 pontos** (escório de cada critério é 0, 1 ou 
 
 ---
 
-## 10. Próximos passos (opcionais)
-
-- [ ] Testar a skill com **outros cenários** (configuração insegura, problema de infraestrutura)
-- [ ] Adicionar uma **skill de testes de segurança** (sugestão da Expert)
-- [ ] Adicionar uma **skill de trilha de estudos** em cibersegurança
-- [ ] Levar a revisão para o **fluxo de desenvolvimento** (DevSecOps)
-- [ ] Adicionar **prints reais** das análises no portfólio
-- [ ] **Publicar no LinkedIn** a skill criada, como sugere a Expert no fim das Aulas
-
-> 💡 **Dica de ouro:** o sucesso do projeto não está em tentar ser "melhor que o ChatGPT" em conhecimento. O sucesso está em **ser diferente**: conduzir, não entregar; perguntar, não substituir; ensinar a pensar, não apenas responder.
-
----
+## 9. Principais arquivos deste projeto
 *Projeto gerado para o Desafio 3 — Especialização do DIO Agent em Análise de Vulnerabilidades.*
